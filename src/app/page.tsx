@@ -17,6 +17,7 @@ export default function Home() {
     "eSource3-3": 0.3,
     "eSource3-6": 0.7,
     "eSource4-12": 0.4,
+    "eSource4-13": 0.6,
     "eSource4-14": 0.9,
     "eSource4-15": 1,
     "e1-2": 0.1,
@@ -47,22 +48,22 @@ export default function Home() {
     {
       id: "source_1",
       type: "solid",
-      position: { x: -50, y: 200 },
+      position: { x: -100, y: 200 },
     },
     {
       id: "source_2",
       type: "solid",
-      position: { x: 100, y: -50 },
+      position: { x: 100, y: -100 },
     },
     {
       id: "source_3",
       type: "solid",
-      position: { x: 250, y: 50 },
+      position: { x: 300, y: 50 },
     },
     {
       id: "source_4",
       type: "solid",
-      position: { x: 250, y: 450 },
+      position: { x: 300, y: 500 },
     },
     {
       id: "1",
@@ -197,6 +198,13 @@ export default function Home() {
       source: "source_4",
       target: "12",
       value: edgeValues["eSource4-12"],
+    },
+    {
+      id: "eSource4-13",
+      type: "uni",
+      source: "source_4",
+      target: "13",
+      value: edgeValues["eSource4-13"],
     },
     {
       id: "eSource4-14",
