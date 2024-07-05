@@ -380,8 +380,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-center p-12 pt-6">
       <div className="mx-auto">
         <Image
-          src="/GSB-logo.png"
-          alt="Stanford GSB Logo"
+          src="/stanford-logo.png"
+          alt="Stanford Logo"
           height={200}
           width={200}
           className="mb-6"
