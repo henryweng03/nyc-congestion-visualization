@@ -377,17 +377,17 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex min-h-screen flex-col justify-center p-12 pt-6">
+    <main className="flex min-h-screen flex-col pt-6">
       <div className="mx-auto">
         <Image
           src="/stanford-logo.png"
           alt="Stanford Logo"
           height={200}
           width={200}
-          className="mb-6"
+          className="mb-6 ml-8"
         />
-        <div className="flex space-x-8">
-          <div>
+        <div className="flex space-x-6">
+          <div className="pl-8">
             <VariableControlPanel />
           </div>
           <div className="shrink-0">
@@ -400,10 +400,10 @@ export default function Home() {
               </div>
             </Card>
           </div>
-          <div className="space-y-8">
+          <div className="space-y-6 pr-8">
             <StatCard header="984 million" text="Annual hrs saved vs no toll" />
-            <StatCard header="$33.4m" text="Annual toll revenue" />
-            <StatCard header="$15.7m" text="Payment to taxicabs" />
+            <StatCard header="$334 million" text="Annual toll revenue" />
+            <StatCard header="$157 million" text="Payment to taxicabs" />
           </div>
         </div>
       </div>

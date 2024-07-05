@@ -7,7 +7,7 @@ export default function VariableControlPanel() {
   return (
     <Tabs
       defaultValue="current-proposal"
-      className="w-[400px] shadow-sm bg-white"
+      className="w-[22rem] shadow-sm bg-white"
     >
       <TabsList className="grid w-full grid-cols-2 bg-whiterounded-lg rounded-b-none border border-b-0 p-4 -mb-8">
         <TabsTrigger
